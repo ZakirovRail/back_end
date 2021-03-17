@@ -1,0 +1,10 @@
+actions:
+- msg_1
+- msg_2
+- msg_3
+- msg_4
+to:
+- acc_1
+- acc_2
+- acc_3
+- acc_4
