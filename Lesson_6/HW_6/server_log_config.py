@@ -14,7 +14,7 @@ logger.setLevel(logging.DEBUG)
 
 
 if __name__ == '__main__':
-    logger.critical('Critical error')
-    logger.error('error')
-    logger.debug('debug info')
-    logger.info('info')
+    LOGGER.critical('Critical error')
+    LOGGER.error('error')
+    LOGGER.debug('debug info')
+    LOGGER.info('info')
