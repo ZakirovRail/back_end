@@ -1,11 +1,7 @@
-# python3 -m unittest tests.test_server
 import unittest
-import os
-import sys
+
 from server import handle_message
 from utils import load_configs
-
-sys.path.append(os.path.join(os.getcwd(), '../..'))
 
 
 class TestServer(unittest.TestCase):
@@ -18,7 +14,7 @@ class TestServer(unittest.TestCase):
 
     success_message = {CONFIGS['RESPONSE']: 200}
 
-    def test_without_action(self):
+    def test_without_action(self): 
         self.assertEqual(
             handle_message({
                 self.CONFIGS['TIME']: '1.1',

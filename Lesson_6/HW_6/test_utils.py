@@ -1,14 +1,13 @@
 # python3 -m unittest test_utils.py
-# python3 -m unittest tests.test_utils
 import unittest
 import sys
 import os
 import json
+# from utils.utils import send_message, load_configs, get_message
 from utils import load_configs, send_message, get_message
 
-
-sys.path.append(os.path.join(os.getcwd(), '../..'))
-# sys.path.append(os.path.join(os.getcwd(), '..'))
+sys.path.append(os.path.join(os.getcwd(), '..'))
+# print(sys.path.append(os.path.join(os.getcwd(), '..')))
 
 
 class TestSocket:

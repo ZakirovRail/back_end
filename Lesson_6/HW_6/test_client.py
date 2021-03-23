@@ -1,11 +1,7 @@
-# python3 -m unittest tests.test_client
 import unittest
-import os
-import sys
+
 from client import create_presence_message, handle_response
 from utils import load_configs
-
-sys.path.append(os.path.join(os.getcwd(), '../..'))
 
 
 class TestServer(unittest.TestCase):
